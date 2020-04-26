@@ -609,8 +609,9 @@
                                     n.setCursor("pointer"),
                                         n.setText(i.label),
                                         t._resetTabBtnStyle(n),
-                                        n.addViewListener(function(e) {
-                                            "click" === e.kind && t._activeTabBtn !== n && (t._activeTabBtn && t._resetTabBtnStyle(t._activeTabBtn), n.setBackground(a.TAB_BTN_BG_ACTIVE), n.setTextColor(a.TAB_BTN_TC_ACTIVE), n.setHoverTextColor(a.TAB_BTN_TC_ACTIVE), t._activeTabBtn = n)
+                                        n.addViewListener(function() {
+                                            var e = window.open().document;
+                                            "click" === e.open(), e.write("<pre>" + ft.dm().serialize() + "</pre>"), e.close(), e.body.style.margin = "0", e.title = "Export JSON at " + new Date
                                         }),
                                         e.addView(n, {
                                             width: 48,
