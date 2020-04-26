@@ -5,12 +5,9 @@
     var e = {
             globalEvent: new ht.Notifier
         },
-        t = [],
         o = new ht.widget.Palette,
         n = o.getDataModel(),
-        i = new ht.Group,
-        a = new ht.Group,
-        s = new ht.Group;
+        i = new ht.Group;
     i.setName("基本节点"), i.setExpanded(!0), n.add(i);
     var r = new ht.Text;
     n.add(r), r.setParent(i), r.s("draggable", !0), r.setSize(52, 52), r.s("text", "文本"), r.s("text.align", "center"), r.setDisplayName("文本"), r.a("nodeType", 2), r.setName("文本"), r.s("image.stretch", "centerUniform");
