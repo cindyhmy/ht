@@ -609,10 +609,6 @@
                                     n.setCursor("pointer"),
                                         n.setText(i.label),
                                         t._resetTabBtnStyle(n),
-                                        n.addViewListener(function() {
-                                            var e = window.open().document;
-                                            "click" === e.open(), e.write("<pre>" + ft.dm().serialize() + "</pre>"), e.close(), e.body.style.margin = "0", e.title = "Export JSON at " + new Date
-                                        }),
                                         e.addView(n, {
                                             width: 48,
                                             height: 32,
@@ -736,13 +732,15 @@
                         }]),
                         t
                 } ()), new ht.ui.VBoxLayout);
-            E.addView(k.pane, {
-                width: "match_parent",
-                height: 32
-            }),
-                E.getView().style.boxShadow = "0 4px 7px #ddd",
-                E.getView().style.backgroundColor = a.TOOLBAR_BG,
-                E.setZIndex(100);
+
+            var button = new ht.ui.Button;
+            button.setCursor("pointer");
+            button.setText('json');
+            button.addViewListener(function(e) {
+                var e = window.open().document;
+                e.open(), e.write("<pre>" + ft.dm().serialize() + "</pre>"), e.close(), e.body.style.margin = "0", e.title = "Export JSON at " + new Date
+            });
+            E.addView(button);
             var P = "T",
                 B = "R",
                 C = "B",
