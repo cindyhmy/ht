@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a45a086f-4625-46bc-ae16-b120759c3d5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/createEdgeInteractor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbols/diamond.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbols/round-rect.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -30,6 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tfs/wanhua.h5" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -61,7 +62,10 @@
       <workItem from="1587714276878" duration="6087000" />
       <workItem from="1587721933779" duration="619000" />
       <workItem from="1587864792125" duration="2512000" />
-      <workItem from="1587951187075" duration="18334000" />
+      <workItem from="1587951187075" duration="21966000" />
+      <workItem from="1588037765862" duration="47000" />
+      <workItem from="1588037862232" duration="1909000" />
+      <workItem from="1588039828064" duration="427000" />
     </task>
     <task id="LOCAL-00001" summary="33">
       <created>1587878630662</created>
@@ -84,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587969368358</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="44">
+      <created>1587977357025</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587977357025</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="33" />
-    <option name="LAST_COMMIT_MESSAGE" value="33" />
+    <MESSAGE value="44" />
+    <option name="LAST_COMMIT_MESSAGE" value="44" />
   </component>
 </project>
