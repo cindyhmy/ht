@@ -59,6 +59,17 @@ ht.Default.def(CreateEdgeInteractor, ht.graph.Interactor, {
             edge.setParent(this._graphView.getCurrentSubGraph());
             this._graphView.getDataModel().add(edge);
             this._graphView.getSelectionModel().setSelection(edge);
+            edge.s({
+                'icons': {
+                    toArrow: {
+                        position: 18,
+                        names: ['toArrow'],
+                        keepOrien: true,
+                        width: 50,
+                        height: 25
+                    }
+                }
+            });
         }
         this._graphView.removeTopPainter(this);
     },

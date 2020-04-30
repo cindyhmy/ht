@@ -33,6 +33,25 @@
                     ]
                 }
             );
+            ht.Default.setImage('toArrow', {
+                width: 100,
+                height: 50,
+                comps: [
+                    {
+                        type: 'shape',
+                        points: [2, 25, 30, 25],
+                        borderWidth: 4,
+                        borderColor: 'black'
+                    },
+                    {
+                        type: 'shape',
+                        points: [30, 10, 30, 40, 50, 25, 30, 10],
+                        background: 'black',
+                        borderWidth: 1,
+                        borderColor: 'black',
+                    }
+                ]
+            });
             var items = [
                 {
                     label: '放大',
